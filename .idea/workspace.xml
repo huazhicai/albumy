@@ -2,23 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60b0dbcf-6fe0-406c-afda-b00446018435" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/blueprints/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/blueprints/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/blueprints/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/emails.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/forms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/forms/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albumy/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/blueprints/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/blueprints/ajax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/blueprints/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/fakes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/forms/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/forms/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/forms/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/notifications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/images/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/css/Jcrop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/css/jquery.Jcrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/css/jquery.Jcrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/js/jquery.Jcrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/js/jquery.Jcrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/js/jquery.color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/jcrop/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/moment-with-locales.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/FONT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/ICON-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-bootstrap.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-bootstrap.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-foundation.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-foundation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic-foundation.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/css/open-iconic.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/static/open-iconic/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/admin/edit_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/admin/manage_comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/admin/manage_photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/admin/manage_tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/admin/manage_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/auth/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/auth/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/emails/change_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/emails/change_email.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/emails/confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/emails/confirm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/emails/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/emails/reset_password.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/errors/400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/errors/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/errors/413.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/errors/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/macros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/_comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/_photo_sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/_sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/collectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/explore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/profile_popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/main/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/collections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/followers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/following.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/change_avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/change_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/delete_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/edit_notification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/edit_privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albumy/templates/user/settings/edit_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flaskenv" beforeDir="false" afterPath="$PROJECT_DIR$/.flaskenv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/albumy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/albumy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albumy/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/albumy/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,30 +143,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="flaskenv" value="1" />
+          <entry key="flaskenv" value="2" />
+          <entry key="html" value="3" />
           <entry key="md" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="flaskenv" value="38" />
+          <entry key="flaskenv" value="39" />
           <entry key="md" value="173" />
-          <entry key="py" value="8613" />
+          <entry key="py" value="8685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="173" />
-          <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="8613" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Python" value="8685" />
         </counts>
       </usages-collector>
     </session>
@@ -67,81 +176,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="80">
-                <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/albumy/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1546597474573" expanded="true" signature="240:245" ph="..." />
-                <marker date="1546597474573" expanded="true" signature="356:1833" ph="..." />
-                <marker date="1546597474573" expanded="true" signature="1871:1872" ph="..." />
-                <marker date="1546597474573" expanded="true" signature="2028:2033" ph="..." />
-                <marker date="1546597474573" expanded="true" signature="2179:2321" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/albumy/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1546599188836" expanded="true" signature="293:298" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/albumy/forms/auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <marker date="1546600973491" expanded="true" signature="279:284" ph="..." />
-                <marker date="1546600973491" expanded="true" signature="539:544" ph="..." />
-                <marker date="1546600973491" expanded="true" signature="1584:1589" ph="..." />
-                <marker date="1546600973491" expanded="true" signature="1736:1741" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/albumy/blueprints/auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <element signature="e#188#258#0" expanded="true" />
-                <marker date="1546607163581" expanded="true" signature="5073:5092" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/albumy/blueprints/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="320">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
               <folding>
                 <element signature="e#188#197#0" expanded="true" />
               </folding>
@@ -150,48 +188,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/albumy/utils.py">
+        <entry file="file://$PROJECT_DIR$/albumy/notifications.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1546603968233" expanded="true" signature="532:537" ph="..." />
-                <marker date="1546603968233" expanded="true" signature="764:769" ph="..." />
-                <marker date="1546603968233" expanded="true" signature="1459:1464" ph="..." />
-                <marker date="1546603968233" expanded="true" signature="1618:1623" ph="..." />
-                <marker date="1546603968233" expanded="true" signature="2157:2162" ph="..." />
-                <marker date="1546603968233" expanded="true" signature="2409:2414" ph="..." />
-                <marker date="1546603968233" expanded="true" signature="2657:2662" ph="..." />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/albumy/emails.py">
+        <entry file="file://$PROJECT_DIR$/albumy/fakes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="280">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1546604583739" expanded="true" signature="181:186" ph="..." />
-                <marker date="1546604583739" expanded="true" signature="286:291" ph="..." />
+                <element signature="e#188#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/albumy/extensions.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.flaskenv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-                <marker date="1546598218707" expanded="true" signature="579:584" ph="..." />
-                <marker date="1546598218707" expanded="true" signature="1020:1178" ph="..." />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -212,16 +236,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.flaskenv" />
         <option value="$PROJECT_DIR$/albumy/settings.py" />
         <option value="$PROJECT_DIR$/albumy/extensions.py" />
-        <option value="$PROJECT_DIR$/albumy/models.py" />
         <option value="$PROJECT_DIR$/albumy/forms/auth.py" />
         <option value="$PROJECT_DIR$/albumy/utils.py" />
         <option value="$PROJECT_DIR$/albumy/emails.py" />
         <option value="$PROJECT_DIR$/albumy/decorators.py" />
         <option value="$PROJECT_DIR$/albumy/blueprints/auth.py" />
         <option value="$PROJECT_DIR$/albumy/blueprints/main.py" />
+        <option value="$PROJECT_DIR$/albumy/forms/admin.py" />
+        <option value="$PROJECT_DIR$/albumy/forms/user.py" />
+        <option value="$PROJECT_DIR$/albumy/forms/main.py" />
+        <option value="$PROJECT_DIR$/albumy/blueprints/admin.py" />
+        <option value="$PROJECT_DIR$/albumy/models.py" />
+        <option value="$PROJECT_DIR$/albumy/notifications.py" />
+        <option value="$PROJECT_DIR$/albumy/fakes.py" />
+        <option value="$PROJECT_DIR$/albumy/blueprints/ajax.py" />
+        <option value="$PROJECT_DIR$/albumy/blueprints/user.py" />
+        <option value="$PROJECT_DIR$/.flaskenv" />
       </list>
     </option>
   </component>
@@ -230,6 +262,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/albumy/static/open-iconic/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="733" />
@@ -251,17 +288,6 @@
               <item name="albumy" type="b2602c69:ProjectViewProjectNode" />
               <item name="albumy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="albumy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="albumy" type="462c0819:PsiDirectoryNode" />
-              <item name="albumy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="albumy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="albumy" type="462c0819:PsiDirectoryNode" />
-              <item name="albumy" type="462c0819:PsiDirectoryNode" />
-              <item name="blueprints" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -273,9 +299,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\albumy\albumy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\PycharmProjects\albumy" />
     </key>
@@ -310,13 +339,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40857142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31428573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891247" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" weight="0.32891247" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -340,13 +369,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.flaskenv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -380,31 +402,6 @@
             <element signature="e#0#33#0" expanded="true" />
             <marker date="1546598218707" expanded="true" signature="579:584" ph="..." />
             <marker date="1546598218707" expanded="true" signature="1020:1178" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/albumy/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1546599188836" expanded="true" signature="293:298" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/albumy/forms/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1546600973491" expanded="true" signature="279:284" ph="..." />
-            <marker date="1546600973491" expanded="true" signature="539:544" ph="..." />
-            <marker date="1546600973491" expanded="true" signature="1584:1589" ph="..." />
-            <marker date="1546600973491" expanded="true" signature="1736:1741" ph="..." />
           </folding>
         </state>
       </provider>
@@ -464,11 +461,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/albumy/blueprints/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#188#197#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/forms/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/forms/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <folding>
+            <element signature="e#188#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/forms/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#188#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/notifications.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/templates/admin/manage_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/blueprints/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1396">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#188#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/forms/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1546600973491" expanded="true" signature="279:284" ph="..." />
+            <marker date="1546600973491" expanded="true" signature="539:544" ph="..." />
+            <marker date="1546600973491" expanded="true" signature="1584:1589" ph="..." />
+            <marker date="1546600973491" expanded="true" signature="1736:1741" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/templates/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/blueprints/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2547">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="e#188#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/blueprints/ajax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+          <folding>
+            <element signature="e#188#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumy/fakes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#188#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
